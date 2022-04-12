@@ -1,0 +1,262 @@
+{
+  "main": {
+    "name": "Arnaldo",
+    "occupation": "Ingeniero en Informática, con experiencia laboral de seis (6) años como Programador web y desarrollo de software",
+    "description": "Poseo amplios conocimientos en lenguaje de programación PHP y Java, Framework Laravel, codeigniter,CMS Wordpress, lenguaje de programación Javascript con framework Vue js, Angular, React, base de datos Mysql postgresql",
+    "image": "desarrollador.png",
+    "bio": "Soy una persona con competencias como relaciones interpersonales, capacidad de gestión, trabajo en equipo, actitud de liderazgo, efectividad en el servicio y en el uso de recursos.",
+    "contactmessage": "",
+    "email": "arnaldolameda@gmail.com",
+    "phone": "+58 3216663861",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Venezuela",
+      "state": "Poblado 2, Pereira, Risaralda",
+      "zip": "Codigo postal 660000"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "images/HojadevidaArnaldolameda.pdf",
+    "social": [
+    
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/arnaldo-lameda-03aa92122/",
+        "className": "fa fa-linkedin"
+      },
+    
+      {
+        "name": "github",
+        "url": "https://github.com/odlanra2",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Universidad",
+        "degree": "Instituto Universitario de Tecnología de Valencia -IUTVAL",
+        "graduated": "Octubre 2012 - Octubre 2017",
+        "description": "Ingeniero en informatica"
+      },
+      {
+        "school": "Udemy - Plataforma de aprendizaje en línea",
+        "degree": "Java EE - Desde cero a Experto (EJB, JPA, Web Services, JSF)",
+        "graduated": "Febrero de 2022",
+        "description": "Obtuve certificado de finalización en el curso intensivo de Java duración de 70 horas"
+      }
+    ],
+    "work": [
+      {
+        "company": "Fénixpuntonet S.A.S.",
+        "title": "Desarrollador de software remoto ",
+        "years": "March 2010 - Present",
+        "description": "Desarrollador de software y paginas web a la medida, mantenimiento de los mismos,actualización mejoras."
+      },
+      {
+        "company": "Gradiweb",
+        "title": "Desarrollador fullstack remoto",
+        "years": "Octubre 2019 - Enero 2020",
+        "description": "Desarrollador de sitios web en wordpress a la medida."
+      },
+
+      {
+        "company": "Navicu",
+        "title": "Desarrollador de sistemas web",
+        "years": "Febrero 2018 - Diciembre 2018",
+        "description": "Mantenimiento y desarrollo de funcionalidades del sitio web naviu.com como, API REST, pasarelas de pago entre otros sistemas de software y desarrollo de, páginas web."
+      },
+
+      {
+        "company": "Desarrollo Turístico Marisol (Islas del sol)",
+        "title": "Desarrollador web",
+        "years": "Septiembre 2016 - Junio 2018",
+        "description": "Desarrollar sitios web autogestionables y actualización en sus módulos administrativos. Gestionar bases de datos Mysql"
+      },
+      {
+        "company": "El mar de la ceramica",
+        "title": "Soporte tecnico",
+        "years": "Septiembre 2014 - Agosto 2016",
+        "description": "Soporte a equipos computacionales impresoras instalacion de programas y mantenimiento de sofware, redes, central telefonica"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "level": "100%"
+      },
+      {
+        "name": "CSS",
+        "level": "100%"
+      },
+      {
+        "name": "Sass",
+        "level": "70%"
+      },
+      {
+        "name": "Javascript",
+        "level": "85%"
+      },
+      {
+        "name": "Jquery",
+        "level": "90%"
+      },
+      {
+        "name": "React",
+        "level": "90%"
+      },
+      {
+        "name": "React native",
+        "level": "60%"
+      },
+      {
+        "name": "VueJs",
+        "level": "90%"
+      },
+      {
+        "name": "Angular",
+        "level": "40%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "40%"
+      },
+
+      {
+        "name": "Node",
+        "level": "50%"
+      },
+      {
+        "name": "PHP Nativo",
+        "level": "95%"
+      },
+      {
+        "name": "Laravel",
+        "level": "80%"
+      },
+      {
+        "name": "codeigniter",
+        "level": "95%"
+      },
+
+      {
+        "name": "symphony",
+        "level": "75%"
+      },
+
+      {
+        "name": "Mysql",
+        "level": "95%"
+      },
+      {
+        "name": "postgresql",
+        "level": "75%"
+      },
+
+      {
+        "name": "Java",
+        "level": "85%"
+      },
+      {
+        "name": "spring framework",
+        "level": "55%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Coyock",
+        "category": "Freelancer",
+        "image": "freelancer1.png",
+        "url": "http://coyock.com"
+      },
+      {
+        "title": "Experiencias Spa de lujo",
+        "category": "freelancer",
+        "image": "freelancer2.png",
+        "url": "https://skincareangelspa.com"
+      },
+      {
+        "title": "Islas del sol",
+        "category": "A traves de desarrollo turistico",
+        "image": "islasdelsol.png",
+        "url": "https://islasdelsol.com.ve"
+      },
+      {
+        "title": "Navicu",
+        "category": "A traves de navicu",
+        "image": "navicu.png",
+        "url": "https://www.navicu.com/"
+      },
+      {
+        "title": "Fabuleuse",
+        "category": "A traves de Gradiweb",
+        "image": "gradiweb2.png",
+        "url": "https://fabuleusefrenchfabrique.fr/"
+      },
+
+      {
+        "title": "cousbox",
+        "category": "A traves de Gradiweb",
+        "image": "gradiweb1.png",
+        "url": "https://cousbox.com/"
+      },
+      
+      {
+        "title": "JRG Gastroshop",
+        "category": "A traves de fenixpuntonet",
+        "image": "fenixpuntonetjrg.png",
+        "url": "https://www.jrggastroshop.com/"
+      },
+
+      {
+        "title": "Facelco",
+        "category": "A traves de fenixpuntonet",
+        "image": "fenixfacelco.png",
+        "url": "https://facelco.fenixpuntonet.info/"
+      },
+
+      {
+        "title": "Satori",
+        "category": "A traves de fenixpuntonet",
+        "image": "fenixsatori.png",
+        "url": "https://satoribelleza.com/"
+      },
+      {
+        "title": "Trasurcar",
+        "category": "A traves de fenixpuntonet",
+        "image": "fenixtransurcar.png",
+        "url": "https://setapp.transurcar.com/"
+      },
+      {
+        "title": "Señal editora",
+        "category": "A traves de fenixpuntonet",
+        "image": "fenixeditora.png",
+        "url": "https://senaleditora.com/"
+      },
+
+      {
+        "title": "Ferreteria",
+        "category": "A traves de fenixpuntonet",
+        "image": "fenixferreteria.png",
+        "url": "https://ferreteriabell.com/"
+      }
+
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
