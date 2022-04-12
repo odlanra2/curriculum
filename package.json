@@ -2,7 +2,7 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://odlanra2.github.io/curriculum",
+  "homepage": "https://odlanra2.github.io/curriculum/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "jquery": "^3.2.1",
