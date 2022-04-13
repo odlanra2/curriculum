@@ -137,37 +137,72 @@
 /*	contact form
 ------------------------------------------------------*/
 
-   $('form#contactForm button.submit').click(function() {
-
-      $('#image-loader').fadeIn();
-
+   $('form#contactForm button.submit').click(function(e) {
+      e.preventDefault()   
+     
+      $('.error').fadeIn();
+      $('.error').html('');
       var contactName = $('#contactForm #contactName').val();
       var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
+      if(contactName==''){
+         $('#contactForm #contactName').focus().after('<span style="color:red" class="error">los campos no deben estar vacios</span>');
+         $('#image-loader').fadeOut();
+         setTimeout(function() {$('.error').fadeOut('fast');}, 3000);  
+         return
+      }
+
+      if(contactEmail==''){
+         $('#contactForm #contactEmail').focus().after('<span style="color:red" class="error">los campos no deben estar vacios</span>');
+         $('#image-loader').fadeOut();
+         setTimeout(function() {$('.error').fadeOut('fast');}, 3000);  
+         return
+      }
+
+      if(contactSubject==''){
+         $('#contactForm #contactSubject').focus().after('<span style="color:red" class="error">los campos no deben estar vacios</span>');
+         $('#image-loader').fadeOut();
+         setTimeout(function() {$('.error').fadeOut('fast');}, 3000);  
+         return
+      }
+
+      if(contactMessage==''){
+         $('#contactForm #contactMessage').focus().after('<span style="color:red" class="error">los campos no deben estar vacios</span>');
+         $('#image-loader').fadeOut();
+         setTimeout(function() {$('.error').fadeOut('fast');}, 3000);  
+         return
+      }
+
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+      $('#image-loader').fadeIn();
+      $('button.submit').attr('disabled','disabled');
 
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "https://alobranding.com/correo/",
 	      data: data,
 	      success: function(msg) {
-
             // Message was sent
-            if (msg == 'OK') {
+            if (JSON.parse(msg) == 'OK') {
+               $('button.submit').removeAttr('disabled');
                $('#image-loader').fadeOut();
-               $('#message-warning').hide();
-               $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $("form")[0].reset();
+               $('#message-warning').html('Se envio el correo correctamente');
+	            $('#message-warning').fadeIn();
+               setTimeout(function() {$('#message-warning').fadeOut('fast');}, 3000);  
             }
             // There was an error
             else {
+               $('button.submit').removeAttr('disabled');
                $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
+               //$("form")[0].reset();
+               $('#message-warning').html('Ocurrio un error');
 	            $('#message-warning').fadeIn();
+               setTimeout(function() {$('#message-warning').fadeOut('fast');}, 3000);  
             }
 
 	      }
