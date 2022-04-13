@@ -40,7 +40,7 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label htmlFor="contactName">Nombre<span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
@@ -50,17 +50,17 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">Asunto</label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                     <label htmlFor="contactMessage">Mensaje <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit">Enviar</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -70,7 +70,7 @@ class Contact extends Component {
 
            <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+                  <i className="fa fa-check"></i>tu mensaje ha sido enviado<br />
 				   </div>
            </div>
 
