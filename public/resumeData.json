@@ -1,9 +1,9 @@
 {
   "main": {
     "name": "Arnaldo",
-    "occupation": "Ingeniero en Informática, con experiencia laboral de seis (6) años como Programador web y desarrollo de software",
-    "description": "Poseo amplios conocimientos en lenguaje de programación PHP y Java, Framework Laravel, codeigniter,CMS Wordpress, lenguaje de programación Javascript con framework Vue js, Angular, React, base de datos Mysql postgresql",
-    "image": "desarrollador.png",
+    "occupation": "Ingeniero en Informática, con experiencia laboral de seis (7) años como Programador web y desarrollo de software",
+    "description": "Poseo amplios conocimientos en lenguaje de programación PHP, Java, Framework Laravel, codeigniter,CMS Wordpress, lenguaje de programación Javascript con framework Vue js, Angular, React, base de datos Mysql postgresql",
+    "image": "perfil.jpg",
     "bio": "Soy una persona con competencias como relaciones interpersonales, capacidad de gestión, trabajo en equipo, actitud de liderazgo, efectividad en el servicio y en el uso de recursos.",
     "contactmessage": "",
     "email": "arnaldolameda@gmail.com",
