@@ -11,8 +11,8 @@
     "address": {
       "street": "(Your Street)",
       "city": "Venezuela",
-      "state": "Poblado 2, Pereira, Risaralda",
-      "zip": "Codigo postal 660000"
+      "state": "",
+      "zip": ""
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "images/HojadevidaArnaldolameda.pdf",
@@ -49,9 +49,16 @@
     ],
     "work": [
       {
+        "company": "Contractor Campus.",
+        "title": "FULL-STACK PROGRAMMING ",
+        "years": "May. 2024 - Present",
+        "description": "Desarrollar la parte visual de las app y sitios web de la empresa, además de mantenerlos y optimizarlos"
+      },
+      
+      {
         "company": "Fénixpuntonet S.A.S.",
         "title": "Desarrollador de software remoto ",
-        "years": "March 2010 - Present",
+        "years": "dic. 2021 - Present",
         "description": "Desarrollador de software y paginas web a la medida, mantenimiento de los mismos,actualización mejoras."
       },
       {
