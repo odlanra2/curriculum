@@ -8,7 +8,7 @@ const Routers = () =>{
    // Si estás en producción (GitHub Pages), usa el basename "/curriculum"
   // En local, basename vacío para que funcione en http://localhost:3000/
     const basename =
-    process.env.NODE_ENV === "production" ? "/curriculum" : "/";
+    process.env.NODE_ENV === "production" ? "/curriculum" : "/curriculum";
     return (<>
                 <BrowserRouter  basename={basename} >
                  {<NavbarPage/>}

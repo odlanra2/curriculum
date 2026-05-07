@@ -195,7 +195,7 @@ export const Home = () => {
             </p>
 
             <div className="hero-actions animate-fade-up delay-4">
-              <a download="resumen" href="/image/resumen.pdf" className="btn-primary">Descargar resumen ↓</a>
+              <a download="resumen" href="/curriculum/image/resumen.pdf" className="btn-primary">Descargar resumen ↓</a>
               <a href="#portafolio" className="btn-outline">Ver portafolio</a>
               {/*<a  download="resumen" href="/image/resumen.pdf" className="btn-outline">Resumen</a>*/}
             </div>
@@ -210,7 +210,7 @@ export const Home = () => {
             <div className="hero-img-ring" />
             <img
               className="hero-img"
-              src="/image/FotoArnaldo.png"
+              src="/curriculum/image/FotoArnaldo.png"
               alt="Arnaldo"
             />
           </div>
@@ -283,7 +283,7 @@ export const Home = () => {
 
             <div className="port-card port-featured">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/cousbox.png" alt="E-commerce" className="port-img" />
+                <img src="/curriculum/image/portafolio/cousbox.png" alt="E-commerce" className="port-img" />
                 <div className="port-overlay">
                   <div className="port-links">
                     <a href="https://cousbox.com/" target="_blank" className="port-link">Ver sitio →</a>
@@ -303,7 +303,7 @@ export const Home = () => {
 
             <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/satori.png" alt="Dashboard" className="port-img" />
+                <img src="/curriculum/image/portafolio/satori.png" alt="Dashboard" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a href="https://satoribelleza.com/" target="_blank" className="port-link">Ver sitio →</a></div></div>
               </div>
               <div className="port-info">
@@ -316,7 +316,7 @@ export const Home = () => {
 
             <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/fabuleuse.png" alt="CMS" className="port-img" />
+                <img src="/curriculum/image/portafolio/fabuleuse.png" alt="CMS" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a href="https://fabuleusefrenchfabrique.fr/" target="_blank" className="port-link">Ver sitio →</a></div></div>
               </div>
               <div className="port-info">
@@ -329,7 +329,7 @@ export const Home = () => {
 
             <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/itel.png" alt="API" className="port-img" />
+                <img src="/curriculum/image/portafolio/itel.png" alt="API" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a href="https://itelcorp.com" target="_blank" className="port-link">Ver sitio →</a></div></div>
               </div>
               <div className="port-info">
@@ -342,7 +342,7 @@ export const Home = () => {
 
             <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/navicu.png" alt="CMS" className="port-img" />
+                <img src="/curriculum/image/portafolio/navicu.png" alt="CMS" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a href="https://www.navicu.com/" target="_blank" className="port-link">Ver sitio →</a></div></div>
               </div>
               <div className="port-info">
@@ -354,7 +354,7 @@ export const Home = () => {
             </div>
              <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/transucarcar.png" alt="CMS" className="port-img" />
+                <img src="/curriculum/image/portafolio/transucarcar.png" alt="CMS" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a  className="port-link">Ver demo →</a></div></div>
               </div>
               <div className="port-info">
@@ -367,7 +367,7 @@ export const Home = () => {
 
              <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/frigorivalle.png" alt="CMS" className="port-img" />
+                <img src="/curriculum/image/portafolio/frigorivalle.png" alt="CMS" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a className="port-link">Ver demo →</a></div></div>
               </div>
               <div className="port-info">
@@ -380,7 +380,7 @@ export const Home = () => {
 
             <div className="port-card">
               <div className="port-img-wrap">
-                <img src="/image/portafolio/asocarnes.png" alt="CMS" className="port-img" />
+                <img src="/curriculum/image/portafolio/asocarnes.png" alt="CMS" className="port-img" />
                 <div className="port-overlay"><div className="port-links"><a className="port-link">Ver demo →</a></div></div>
               </div>
               <div className="port-info">
