@@ -5,9 +5,12 @@ import { Portafolio } from '../page/Portafolio';
 import { Servicio } from '../page/Servicios';
 
 const Routers = () =>{
-   
+   // Si estás en producción (GitHub Pages), usa el basename "/curriculum"
+  // En local, basename vacío para que funcione en http://localhost:3000/
+    const basename =
+    process.env.NODE_ENV === "production" ? "/curriculum" : "/";
     return (<>
-                <BrowserRouter>
+                <BrowserRouter  basename={basename} >
                  {<NavbarPage/>}
                         <Routes>
                           <Route  path={'/'}  element={<Home/>}/>
