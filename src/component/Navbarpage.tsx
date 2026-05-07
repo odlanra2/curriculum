@@ -47,7 +47,7 @@ export const NavbarPage = () => {
         className="navbar"
         style={{ boxShadow: scrolled ? '0 4px 40px rgba(0,0,0,0.5)' : 'none' }}
       >
-        <a href="/" className="navbar-logo">
+        <a href="/curriculum" className="navbar-logo">
           Arnal<span>do</span><span style={{ color: 'var(--accent3)' }}>.</span>
         </a>
 
